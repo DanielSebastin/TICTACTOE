@@ -140,4 +140,8 @@ Once all content is ready, Navigate to the project location and run below comman
 python application.py --config config.ini --mode service --endpoint dynamodb.ap-south-2.amazonaws.com --serverPort 5000
 ```
 
+
+USE THIS COMMAND IN YOUR EC2 LINUX TERMINAL INORDER TO HOST YOUR FLASK APPLICATION:
+python2.7 application.py --config config.ini --mode service --endpoint dynamodb.ap-south-2.amazonaws.com --serverPort 5000
+
 Then Open browser and enter **http://instance-public-ip:5000/** and enter to access the application.
