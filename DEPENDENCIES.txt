@@ -27,8 +27,9 @@ sudo yum install -y git
 cd /home/ec2-user/
 git clone https://github.com/DanielSebastin/TICTACTOE.git
   
-cd rockpaperscissors
+cd TICTACTOE
 python2.7 application.py --config config.ini --mode service --endpoint dynamodb.ap-south-2.amazonaws.com --serverPort 5000
+
 
 
 
